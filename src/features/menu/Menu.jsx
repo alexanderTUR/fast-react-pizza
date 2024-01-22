@@ -1,5 +1,6 @@
-import { getMenu } from '../../services/apiRestaurant.js';
 import { useLoaderData } from 'react-router-dom';
+import { getMenu } from '../../services/apiRestaurant.js';
+
 import { MenuItem } from './MenuItem.jsx';
 
 export const Menu = () => {

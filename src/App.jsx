@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import { Home } from './ui/Home.jsx';
 import { Error } from './ui/Error.jsx';
 import { Menu, loader as menuLoader } from './features/menu/Menu.jsx';

@@ -1,6 +1,6 @@
 import { formatCurrency } from '../../utils/helpers.js';
 
-export const OrderItem = ({ item, isLoadingIngredients, ingredients }) => {
+export const OrderItem = ({ item }) => {
   const { quantity, name, totalPrice } = item;
 
   return (
